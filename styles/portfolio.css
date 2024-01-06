@@ -1,0 +1,43 @@
+/* common style */
+* {
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+.orange {
+  color: orangered;
+}
+.holud {
+  border-radius: 5px;
+  background: #fd6e0a;
+  height: 60px;
+  width: 140px;
+  color: aliceblue;
+  font-weight: 700;
+  font-size: 23px;
+}
+/* nav styling */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-title {
+  color: var(--Dark-01, #181818);
+  font-size: 45px;
+  font-weight: 800;
+}
+
+nav > ul {
+  display: flex;
+  align-items: center;
+}
+nav li {
+  list-style: none;
+}
+nav a {
+  text-decoration: none;
+  margin-right: 50px;
+  color: var(--Dark-02, #474747);
+  font-size: 20px;
+  font-weight: 400;
+}
