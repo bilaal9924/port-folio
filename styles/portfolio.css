@@ -10,16 +10,17 @@
   border-radius: 5px;
   background: #fd6e0a;
   height: 60px;
-  width: 140px;
+  width: 160px;
   color: aliceblue;
   font-weight: 700;
-  font-size: 23px;
+  font-size: 20px;
 }
 /* nav styling */
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0 200px;
 }
 .nav-title {
   color: var(--Dark-01, #181818);
@@ -40,4 +41,15 @@ nav a {
   color: var(--Dark-02, #474747);
   font-size: 20px;
   font-weight: 400;
+}
+.header{
+  background-color: #FFF8F3;
+}
+.banner{
+  padding: 30px 30px 30px 140px;
+  display: flex;
+}
+.profile-pic{
+  width: 500px;
+  
 }
