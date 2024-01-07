@@ -10,10 +10,11 @@
   border-radius: 5px;
   background: #fd6e0a;
   height: 60px;
-  width: 160px;
+  width: 180px;
   color: aliceblue;
   font-weight: 700;
   font-size: 20px;
+  padding-left: -10px;
 }
 /* nav styling */
 nav {
@@ -44,9 +45,9 @@ nav a {
 }
 .header {
   background-color: #fff8f3;
-  background-image: url("../portfolio-resources/images/header_bg.png");
+  background-image: url("../portfolio-resources/images/header_bg.png"), url('../portfolio-resources/images/developer.png');
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: bottom right , top left;
 }
 .banner {
   padding: 30px 30px 0px 140px;
@@ -120,4 +121,9 @@ main {
 .resume-title {
  
  
+}
+.resume-container{
+  display: flex;
+  gap: 50px
+  ;
 }
